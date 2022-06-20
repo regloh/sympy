@@ -39,6 +39,7 @@ def smith_normal_form(m, domain=None):
     Matrix([[1, 0, 0], [0, 10, 0], [0, 0, -30]])
 
     '''
+    print(">>>>>>>>>> smit normal form <<<<<<<<<<<\n")
     dM = _to_domain(m, domain)
     return _snf(dM).to_Matrix()
 
